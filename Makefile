@@ -38,7 +38,7 @@ BUILD_DIR = build
 C_SOURCES =  \
 Src/main.c \
 Src/tiny_printf.c \
-Src/syscall.c \
+Src/syscalls.c \
 Src/FreeRTOS_openocd.c \
 Src/freertos.c \
 Src/usb_device.c \
