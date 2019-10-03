@@ -26,7 +26,7 @@
             "device": "STM32F103C8Tx",
             "rtos": "FreeRTOS",
             "configFiles": [
-                "./csk32blue_pill.cfg"
+                "./cks32blue_pill.cfg"
             ]
         }
     ]
