@@ -82,7 +82,8 @@ Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 
 # ASM sources
 ASM_SOURCES =  \
-startup_stm32f103xb.s
+startup_stm32f103xb.s \
+Src/_delay.s
 
 
 #######################################
