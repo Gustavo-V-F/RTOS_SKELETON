@@ -40,6 +40,7 @@ Src/main.c \
 Src/tiny_printf.c \
 Src/syscalls.c \
 Src/FreeRTOS_openocd.c \
+Src/_rand.c \
 Src/freertos.c \
 Src/usb_device.c \
 Src/usbd_conf.c \
