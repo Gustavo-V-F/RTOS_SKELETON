@@ -17,7 +17,7 @@
             "cwd": "${workspaceRoot}",
             "executable": "./build/${workspaceFolderBasename}.elf",
             "name": "Debug openocd",
-            "request": "attach",
+            "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
             "v1": false,
