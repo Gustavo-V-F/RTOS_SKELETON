@@ -37,9 +37,9 @@ SOFTWARE.
 #include <time.h>
 #include <sys/time.h>
 #include <sys/times.h>
-//#include "stm32f1xx_hal.h"
+#include "stm32f1xx_hal.h"
 
-//#include "usbd_cdc_if.h"
+#include "usbd_cdc_if.h"
 //extern UART_HandleTypeDef huart3;
 
 /* Variables */
@@ -83,7 +83,7 @@ int _write(int32_t file, uint8_t *ptr, int32_t len)
 	/* Implement your write code here, this is used by puts and printf for example */
 	/* return len; */
 	
-	//CDC_Transmit_FS((uint8_t *)ptr, len);
+	CDC_Transmit_FS((uint8_t *)ptr, len);
 	//HAL_UART_Transmit(&huart3, (uint8_t *)ptr, (uint16_t)len, 100);
 
 	errno = ENOSYS;

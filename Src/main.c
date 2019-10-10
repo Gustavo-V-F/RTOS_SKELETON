@@ -22,11 +22,12 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "usb_device.h"
-#include "_delay.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
+#include "_delay.h"
+#include "_rand.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -219,7 +220,7 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    _delay_ms(1);
+    osDelay(1);
   }
   /* USER CODE END 5 */ 
 }
